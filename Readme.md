@@ -8,8 +8,6 @@ run-p dev:*  #i.e., npm run dev
 npm-run-all --parallel dev:* #i.e., npm start
 ```
 
-Docs [here](https://www.npmjs.com/package/npm-run-all#cli-commands).
-
 This npm-run-all package provides 3 CLI commands.
 
 [npm-run-all](https://github.com/mysticatea/npm-run-all/blob/HEAD/docs/npm-run-all.md) - Common cli, but more verbose to use.
