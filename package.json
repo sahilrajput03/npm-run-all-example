@@ -1,0 +1,19 @@
+{
+  "name": "npm-run-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "run-p dev:*",
+    "dev:server1": "serve -l 5000 a",
+    "dev:server2": "serve -l 5001 b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "serve": "^11.3.2"
+  }
+}
